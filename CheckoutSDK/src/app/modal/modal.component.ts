@@ -7,9 +7,7 @@ import { ModalCheckout, Event} from "@bambora/checkout-sdk-web";
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent implements OnInit {
-  parentUrl:string;
   constructor(){
-      this.parentUrl='empty url'
    }
 
   ngOnInit(){

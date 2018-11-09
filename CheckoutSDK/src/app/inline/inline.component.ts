@@ -7,9 +7,7 @@ import { InlineCheckout, Event} from "@bambora/checkout-sdk-web";
   styleUrls: ['./inline.component.css']
 })
 export class InlineComponent implements OnInit {
-  parentUrl:string;
   constructor(){
-      this.parentUrl='empty url'
    }
 
   ngOnInit(){
