@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { InlineComponent } from './inline/inline.component';
 import { RedirectComponent } from './redirect/redirect.component';
 import { ModalComponent } from './modal/modal.component';
+import { RedirectWindowComponent } from './redirect-window/redirect-window.component';
 
 
 const routes : Routes = [
@@ -21,7 +22,8 @@ const routes : Routes = [
     AppComponent,
     InlineComponent,
     RedirectComponent,
-    ModalComponent
+    ModalComponent,
+    RedirectWindowComponent
 
   ],
   imports: [

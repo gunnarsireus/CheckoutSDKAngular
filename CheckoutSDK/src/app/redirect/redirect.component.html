@@ -1,3 +1,5 @@
-<p>
-  redirect works!
-</p>
+<router-outlet></router-outlet>
+<button (click)="ToggleRedirectWindow()">Betala redirect</button>
+<div *ngIf="buttonClicked"><app-redirect-window></app-redirect-window></div>
+
+
